@@ -1,0 +1,22 @@
+# venv
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Dados de cliente — nunca versionar
+*.csv
+*.xlsx
+*.xls
+!tests/**/*.csv
+!tests/**/*.xlsx
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
