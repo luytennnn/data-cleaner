@@ -13,3 +13,7 @@ class UnsupportedFormatError(DataCleanerError):
 
 class ColumnNotFoundError(DataCleanerError):
     """Coluna-chave escolhida não existe no DataFrame."""
+
+
+class InvalidConfigError(DataCleanerError):
+    """Config de matching inválida (tipo desconhecido ou sem colunas)."""

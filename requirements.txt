@@ -1,5 +1,10 @@
-pandas
-rapidfuzz
-openpyxl
-streamlit
-pytest
+# Versões pinadas nas testadas (Python 3.13, Windows) — reprodutibilidade.
+pandas==3.0.3
+rapidfuzz==3.14.5
+openpyxl==3.1.5
+streamlit==1.58.0
+pytest==9.1.0
+# v2 record linkage — splink traz duckdb + igraph; altair gera o match-weights chart
+splink==4.0.16
+duckdb==1.5.3
+altair==6.2.1
